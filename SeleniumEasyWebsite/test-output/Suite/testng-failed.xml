@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.SeleniumEasy.Tests.InputForms_TestCases">
+        <methods>
+          <include name="testCase_SingleCheckBox"/>
+          <include name="cleanUp"/>
+          <include name="testcase_groupRadioButtons"/>
+          <include name="testcase_singleRadioButton"/>
+          <include name="testcase_inputFormSubmit"/>
+          <include name="testcase_multiSelect"/>
+          <include name="testcase_JQueryDropDownMultiple"/>
+          <include name="testCase_multipleCheckBox"/>
+          <include name="init"/>
+          <include name="testcase_JQueryDropDown"/>
+          <include name="testCase_sumNumbers"/>
+          <include name="testcase_ajaxFormSubmit"/>
+          <include name="testCase_JQueryDropDownWithDisabled"/>
+          <include name="testCase_displayMessage"/>
+          <include name="testcase_singleDropDown"/>
+        </methods>
+      </class> <!-- com.SeleniumEasy.Tests.InputForms_TestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

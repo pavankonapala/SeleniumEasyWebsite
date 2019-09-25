@@ -1,0 +1,2 @@
+URL               : https://www.seleniumeasy.com/test/
+Browser           : Chrome
